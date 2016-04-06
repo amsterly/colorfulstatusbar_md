@@ -28,7 +28,7 @@ public class ChatActivity extends Activity implements View.OnClickListener {
     private Button id_request_btn;
     private TextView tv;
     private Gson gson;
-
+//我可以改变github的代码么
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
