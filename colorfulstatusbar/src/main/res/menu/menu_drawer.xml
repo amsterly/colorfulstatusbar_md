@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group  >
+        <item
+            android:title="@string/frequentlyfunction">
+            <menu>
+                <item
+                    android:id="@+id/id_detection"
+                    android:icon="@drawable/ic_dashboard"
+                    android:title="@string/detection"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/id_calibration"
+                    android:icon="@drawable/ic_event"
+                    android:title="@string/calibration"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_manualcalibration"
+                    android:icon="@drawable/ic_headset"
+                    android:title="@string/manualcalibration"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_detectionrecord"
+                    android:icon="@drawable/ic_forum"
+                    android:title="@string/detectionrecord"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_calibrationrecord"
+                    android:icon="@drawable/ic_headset"
+                    android:title="@string/calibrationrecord"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_operatelog"
+                    android:icon="@drawable/ic_forum"
+                    android:title="@string/operatelog"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_detectionstatisticsreport"
+                    android:icon="@drawable/ic_forum"
+                    android:title="@string/detectionstatisticsreport"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_deivicestate"
+                    android:icon="@drawable/ic_forum"
+                    android:title="@string/deivicestate"
+                    android:checkable="true"/>
+
+
+
+            </menu>
+            </item>
+        <item
+            android:title="@string/devicemaintainace">
+            <menu>
+
+                <item
+                    android:id="@+id/id_deepclean"
+                    android:icon="@drawable/ic_headset"
+                    android:title="@string/deepclean"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_substancedb"
+                    android:icon="@drawable/ic_event"
+                    android:title="@string/substancedb"
+                    android:checkable="true"/>
+
+            </menu>
+        </item>
+        <item
+            android:title="@string/systemmaintainace">
+            <menu>
+                <item
+                    android:id="@+id/id_systemupdate"
+                    android:icon="@drawable/ic_forum"
+                    android:title="@string/systemupdate"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_systemstate"
+                    android:icon="@drawable/ic_headset"
+                    android:title="@string/systemstate"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_usermanagerr"
+                    android:icon="@drawable/ic_event"
+                    android:title="@string/sysusermanager"
+                    android:checkable="true"/>
+
+            </menu>
+            </item>
+        <item
+            android:title="@string/devicesetup">
+            <menu>
+                <item
+                    android:id="@+id/id_setupsysparameter"
+                    android:icon="@drawable/ic_forum"
+                    android:title="@string/setupsysparameter"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_setuphardwareparameter"
+                    android:icon="@drawable/ic_headset"
+                    android:title="@string/setuphardwareparameter"
+                    android:checkable="true"/>
+                <item
+                    android:id="@+id/id_setupalgorithmparameter"
+                    android:icon="@drawable/ic_event"
+                    android:title="@string/setupalgorithmparameter"
+                    android:checkable="true"/>
+
+            </menu>
+        </item>
+
+
+       </group>
+
+</menu>

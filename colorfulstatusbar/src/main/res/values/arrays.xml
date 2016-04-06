@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menuitemname">
+        <item >标定</item>
+        <item >物质库</item>
+        <item >检测记录</item>
+        <item >设备参数</item>
+        <item >俄罗斯</item>
+        <item >中国</item>
+    </string-array>
+    <integer-array name="menuitemres">
+        <item >@drawable/ic_dashboard</item>
+        <item >@drawable/ic_discuss</item>
+        <item >@drawable/ic_headset</item>
+        <item >@drawable/ic_done</item>
+        <item >@drawable/ic_event</item>
+        <item >@drawable/ic_forum</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhy.colorfulstatusbar.Fragment.OperatelogFragment"
+    android:orientation="vertical"
+    android:background="@color/window_background">
+    <LinearLayout
+        android:id="@+id/id_topaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始日期：" />
+        <EditText
+            android:id="@+id/id_startdate_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="80dp"
+            android:text="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束日期："
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/id_enddate_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="80dp"
+            android:text="" />
+        <Button
+            android:id="@+id/id_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/id_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/substance"></View>
+
+    <LinearLayout
+        android:id="@+id/id_botomaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="1/1"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="" />
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
